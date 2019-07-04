@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+  <title>{%block head_title %}{{ block.super }} | Contatti {% endblock head_title %}</title>
+
+{% block content %}
+<center>
+
+  <h1> mail:</h1>
+  <h2> davide.piccolo@stranaidea.it </h2>
+
+
+<img src="{% static 'img/joke02.jpg' %}"/>
+</center>
+
+
+{% endblock content %}
