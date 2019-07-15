@@ -1,1 +1,3 @@
-web: gunicorn django_fieldbook_demo.wsgi --log-file -
+web: gunicorn mydjangoblog.wsgi
+
+web: gunicorn app:app

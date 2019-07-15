@@ -1,0 +1,12 @@
+from django.shortcuts import render
+
+# Create your views here.
+
+def lista_post():
+    pass
+
+def post_singolo():
+    pass
+
+def contatti():
+    pass

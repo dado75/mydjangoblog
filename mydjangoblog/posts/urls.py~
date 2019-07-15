@@ -1,0 +1,12 @@
+from django.contrib import admin
+from .import views as posts_views
+
+# lista dei posts|Homepage del blog
+# post singoli del blog
+# sezione contatti
+
+urlpatterns = [
+    path('', posts_views.lista_post, name="lista"),
+    path('post-singolo/', posts_views.post_singolo, name="singolo"),
+    path('contatti/'), posts_views.contatti, name="contatti"),
+]
